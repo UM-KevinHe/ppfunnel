@@ -1,5 +1,5 @@
 Package: ppfunnel
-Title: Create Elegent Funnel Plots for Health Care Provider Profiling 
+Title: Create Elegant Funnel Plots for Health Care Provider Profiling
 Version: 0.0.1
 Authors@R: 
     c(person(given = "Wenbo",
