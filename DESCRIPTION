@@ -1,0 +1,29 @@
+Package: ppfunnel
+Title: Create Elegent Funnel Plots for Health Care Provider Profiling 
+Version: 0.0.1
+Authors@R: 
+    c(person(given = "Wenbo",
+           family = "Wu",
+           role = c("aut", "cre"),
+           email = "wenbowu@umich.edu",
+           comment = c(ORCID = "0000-0002-7642-9773")),
+      person(given = "Kevin",
+           family = "He",
+           role = "aut",
+           email = "kevinhe@umich.edu",
+           comment = c(ORCID = "0000-0002-8354-426X")))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 3.6.0)
+Imports:
+    magrittr (>= 1.5),
+    dplyr (>= 1.0.2),
+    ggplot2 (>= 3.3.5),
+    MASS (>= 7.3-51.5),
+    poibin (>= 1.5),
+    stats (>= 3.6.3)

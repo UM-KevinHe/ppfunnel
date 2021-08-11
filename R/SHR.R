@@ -1,0 +1,14 @@
+#' Hospitalizations for Medicare beneficiaries on kidney dialysis
+#'
+#' A dataset containing the observed and expected number of hospitalizations for
+#' Medicare dialysis patients from 7241 Medicare-certified dialysis facilities
+#' in the year of 2019.
+#'
+#' @format A data frame with 7241 rows and 3 variables:
+#' \describe{
+#'   \item{ID}{facility ID}
+#'   \item{O}{observed number of hospitalizations for a dialysis facility}
+#'   \item{E}{expected number of hospitalizations for a dialysis facility}
+#' }
+#' @source \url{https://data.cms.gov/quality-of-care/medicare-dialysis-facilities}
+"SHR"
